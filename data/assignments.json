@@ -58,5 +58,47 @@
     "chore": "Aspirateur",
     "user": "Inès",
     "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Vaisselle",
+    "user": "Hugo",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Aspirateur",
+    "user": "Alice",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Courses",
+    "user": "Jules",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Poubelles",
+    "user": "David",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Poubelles",
+    "user": "Clara",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Poubelles",
+    "user": "François",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Poubelles",
+    "user": "Gabrielle",
+    "completed": false
   }
 ]

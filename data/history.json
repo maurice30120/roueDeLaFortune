@@ -1,12 +1,12 @@
 {
   "Alice": 1,
   "Bob": 1,
-  "Clara": 0,
+  "Clara": 1,
   "David": 1,
-  "Emma": 0,
-  "François": 0,
+  "Emma": 1,
+  "François": 1,
   "Gabrielle": 1,
-  "Hugo": 0,
-  "Inès": 0,
+  "Hugo": 1,
+  "Inès": 1,
   "Jules": 1
 }

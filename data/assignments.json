@@ -28,5 +28,35 @@
     "chore": "Vaisselle",
     "user": "Jules",
     "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Vaisselle",
+    "user": "Emma",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Vaisselle",
+    "user": "François",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Poubelles",
+    "user": "Hugo",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Vaisselle",
+    "user": "Clara",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Aspirateur",
+    "user": "Inès",
+    "completed": false
   }
 ]

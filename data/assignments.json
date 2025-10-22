@@ -1,50 +1,32 @@
 [
   {
     "date": "2025-10-22",
-    "chore": "Vaisselle",
-    "user": "Clara",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
     "chore": "Aspirateur",
     "user": "Bob",
     "completed": false
   },
   {
     "date": "2025-10-22",
-    "chore": "Courses",
-    "user": "David",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "Alice",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Vaisselle",
+    "chore": "Aspirateur",
     "user": "David",
     "completed": false
   },
   {
     "date": "2025-10-22",
     "chore": "Aspirateur",
-    "user": "Clara",
+    "user": "Gabrielle",
     "completed": false
   },
   {
     "date": "2025-10-22",
-    "chore": "Courses",
-    "user": "Bob",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
+    "chore": "Vaisselle",
     "user": "Alice",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Vaisselle",
+    "user": "Jules",
     "completed": false
   }
 ]

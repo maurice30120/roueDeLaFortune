@@ -1,152 +1,8 @@
 [
   {
     "date": "2025-10-22",
-    "chore": "Aspirateur",
-    "user": "Bob",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Aspirateur",
-    "user": "David",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Aspirateur",
-    "user": "Gabrielle",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Vaisselle",
-    "user": "Alice",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Vaisselle",
-    "user": "Jules",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Vaisselle",
-    "user": "Emma",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Vaisselle",
-    "user": "François",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "Hugo",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Vaisselle",
-    "user": "Clara",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Aspirateur",
-    "user": "Inès",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Vaisselle",
-    "user": "Hugo",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Aspirateur",
-    "user": "Alice",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Courses",
-    "user": "Jules",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "David",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "Clara",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "François",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "Gabrielle",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "Cyril",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "Xavier",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "Morgan",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "Damien",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "Avi-Gireshan Bhagowantin",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Poubelles",
-    "user": "Tamish",
-    "completed": false
-  },
-  {
-    "date": "2025-10-22",
     "chore": "Talomi",
-    "user": "Brice",
-    "completed": true
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Talomi",
-    "user": "Sara",
+    "user": "Kevin Lhoest-at",
     "completed": true
   },
   {
@@ -154,5 +10,35 @@
     "chore": "Talomi",
     "user": "Yashvin Nababsin",
     "completed": true
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Talomi",
+    "user": "Xavier",
+    "completed": true
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Test",
+    "user": "Tamish",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Test",
+    "user": "Morgan",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Test",
+    "user": "Cyril",
+    "completed": false
+  },
+  {
+    "date": "2025-10-22",
+    "chore": "Test",
+    "user": "Sara",
+    "completed": false
   }
 ]

@@ -37,6 +37,7 @@ python3 app.py assign --count 3
 python3 app.py assign Vaisselle --count 2
 python3 app.py assign --force
 python3 app.py assign --no-anim
+python3 app.py assign --anim
 ```
 
 ### Voir le statut
@@ -75,3 +76,4 @@ python3 app.py reset
 
 ## Astuce
 Si tu es en notebook ou si ton terminal n’affiche pas bien les animations, utilise `--no-anim`.
+Si tu veux forcer les animations même sans TTY/notebook, utilise `--anim`.

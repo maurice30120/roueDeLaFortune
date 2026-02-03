@@ -6,6 +6,7 @@ from rich.text import Text
 
 from ..utils.console import get_console
 from ..utils.gradient import rainbow_text, pastel_text, cristal_text
+from ..utils.env import is_notebook
 
 
 FRAMES = ["🎰", "🎲", "🎯", "🎪", "🎨", "🎭", "🎬", "🎪"]
@@ -44,6 +45,33 @@ def spin_wheel(
             + Text(" → ")
             + rainbow_text(selected_user)
         )
+        return
+
+    # Notebook outputs often don't support in-place line rewrites using '\r'.
+    # When running inside a notebook kernel, use IPython clear_output to emulate
+    # a terminal-like refresh.
+    if is_notebook():
+        try:
+            from IPython.display import clear_output  # type: ignore
+        except Exception:
+            clear_output = None  # type: ignore
+
+        iterations = int(SPIN_DURATION / FRAME_DELAY)
+        for i in range(iterations):
+            random_user = random.choice(users)
+            frame = FRAMES[i % len(FRAMES)]
+            line = f"{frame} {chore.ljust(15)} → {random_user}..."
+            if clear_output is not None:
+                clear_output(wait=True)
+            print(line)
+            progress = i / iterations
+            is_slowing = progress > 0.7
+            delay = FRAME_DELAY * (1 + progress * 2) if is_slowing else FRAME_DELAY
+            time.sleep(delay)
+
+        if clear_output is not None:
+            clear_output(wait=True)
+        print(f"✓ {chore.ljust(15)} → {selected_user}")
         return
 
     iterations = int(SPIN_DURATION / FRAME_DELAY)

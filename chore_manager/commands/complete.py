@@ -3,7 +3,6 @@ from typing import Any, Dict, List, Optional
 from ..utils.console import get_console
 from ..utils.date_helper import get_today_date
 from ..utils.file_manager import ASSIGNMENTS_PATH, load_json, save_json
-from .status import show_today_status
 
 
 def complete_chore(
@@ -101,17 +100,22 @@ def complete_chore(
                     f"\n[yellow]⚠️  Toutes les corvées \"{chore_name}\" sont déjà marquées comme terminées.\n[/]"
                 )
             else:
-                console.print(
-                    f"\n[green]✓ {completed_count} corvée(s) \"{chore_name}\" marquée(s) comme terminée(s) !\n[/]"
-                )
-                for assignment in matching_assignments:
-                    console.print(
-                        f"[grey70]  •[/] [bold]{assignment['chore']}[/] → [yellow]{assignment['user']}[/]"
-                    )
-                console.print("[grey70]\nBon travail ! 🎉\n[/]")
+                console.print(f"\n[green]✓ Personne(s) sélectionnée(s) :[/]")
+                # Keep original assignment order and avoid duplicates.
+                seen_users = set()
+                for assignment in today_assignments:
+                    if chore_name.lower() in assignment.get("chore", "").lower():
+                        user = assignment.get("user")
+                        if user and user not in seen_users:
+                            seen_users.add(user)
+                            console.print(f"[yellow]{user}[/]")
+                console.print("")
 
-            show_today_status()
-            return {"completed": completed_count, "date": today}
+            return {
+                "completed": completed_count,
+                "date": today,
+                "users": [a.get("user") for a in matching_assignments if a.get("user")],
+            }
 
         if len(matching_assignments) > 1 and not user_name:
             console.print(f"\n[yellow]⚠️  Plusieurs corvées correspondent à \"{chore_name}\":\n[/]")
@@ -169,9 +173,5 @@ def complete_chore(
     assignments[assignment_index]["completed"] = True
     save_json(ASSIGNMENTS_PATH, assignments)
 
-    console.print("\n[green]✓ Corvée terminée ![/]")
-    console.print(f"[bold]{target_assignment['chore']}[/] → [yellow]{target_assignment['user']}[/]")
-    console.print("[grey70]Bon travail ! 🎉\n[/]")
-
-    show_today_status()
+    console.print(f"\n[green]✓[/] [yellow]{target_assignment['user']}[/]\n")
     return {"completed": 1, "assignment": target_assignment, "date": today}

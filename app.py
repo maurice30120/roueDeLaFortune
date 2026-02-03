@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 
 from chore_manager import (
@@ -36,6 +37,10 @@ def main() -> None:
     all_mode = "--all" in args
     force_mode = "--force" in args or "-f" in args
     no_anim = "--no-anim" in args
+    force_anim = "--anim" in args
+
+    if force_anim and not no_anim:
+        os.environ["RDLF_FORCE_ANIM"] = "1"
 
     person_value = _get_option_value(args, "-p", "--person")
     count_value = _get_option_value(args, "--count")

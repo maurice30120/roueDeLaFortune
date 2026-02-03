@@ -57,6 +57,9 @@ python app.py assign --force
 
 # Désactiver les animations (utile en CI/notebook)
 python app.py assign --no-anim
+
+# Forcer les animations (même sans TTY/notebook)
+python app.py assign --anim
 ```
 
 #### Voir le statut
@@ -142,6 +145,7 @@ python app.py help
 - `--count N` : Attribuer seulement N corvées (par défaut `N = 3` pour `assign`)
 - `--force` / `-f` : Forcer l'attribution même si déjà fait aujourd'hui
 - `--no-anim` : Désactiver les animations (terminal non-TTY / notebook)
+- `--anim` : Forcer les animations (même sans TTY/notebook)
 - `assign` sans corvée explicite utilise `talomi` par défaut (3 personnes)
 - `complete` sans corvée explicite marque toutes les occurrences de `talomi` (`--all`, 3 personnes)
 - `complete` utilise `-p/--person` pour préciser l'utilisateur

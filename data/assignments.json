@@ -322,5 +322,23 @@
     "chore": "Talomi",
     "user": "Cyril",
     "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Thomas",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Sara",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Morgan",
+    "completed": false
   }
 ]

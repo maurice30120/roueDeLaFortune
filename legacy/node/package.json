@@ -1,0 +1,25 @@
+{
+  "name": "chore-manager",
+  "version": "1.0.0",
+  "description": "Application de répartition équitable des corvées",
+  "main": "app.js",
+  "scripts": {
+    "assign": "node app.js assign",
+    "status": "node app.js status",
+    "reset": "node app.js reset",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "chores",
+    "tasks",
+    "management",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-spinners": "^2.9.0",
+    "gradient-string": "^2.0.2"
+  }
+}

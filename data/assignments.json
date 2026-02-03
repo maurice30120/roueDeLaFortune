@@ -1,43 +1,109 @@
 [
   {
-    "date": "2025-10-22",
+    "date": "2026-02-03",
     "chore": "Talomi",
-    "user": "Kevin Lhoest-at",
-    "completed": true
+    "user": "Damien",
+    "completed": false
   },
   {
-    "date": "2025-10-22",
+    "date": "2026-02-03",
     "chore": "Talomi",
-    "user": "Yashvin Nababsin",
-    "completed": true
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Talomi",
-    "user": "Xavier",
-    "completed": true
-  },
-  {
-    "date": "2025-10-22",
-    "chore": "Test",
     "user": "Tamish",
     "completed": false
   },
   {
-    "date": "2025-10-22",
-    "chore": "Test",
+    "date": "2026-02-03",
+    "chore": "Talomi",
     "user": "Morgan",
     "completed": false
   },
   {
-    "date": "2025-10-22",
-    "chore": "Test",
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Xavier",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
     "user": "Cyril",
     "completed": false
   },
   {
-    "date": "2025-10-22",
-    "chore": "Test",
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Sara",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Brice",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Thomas",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Tamish",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Xavier",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Sara",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Cyril",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Morgan",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Thomas",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Brice",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Damien",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
+    "user": "Xavier",
+    "completed": false
+  },
+  {
+    "date": "2026-02-03",
+    "chore": "Talomi",
     "user": "Sara",
     "completed": false
   }

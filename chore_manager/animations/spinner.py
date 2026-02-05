@@ -48,26 +48,27 @@ def spin_wheel(
         )
         return
 
-    if is_notebook():
-        # Prefer a real wheel animation in notebooks.
-        try:
-            from IPython.display import display  # type: ignore
-        except Exception:
-            display = None  # type: ignore
+    # if is_notebook():
+      
+    # Prefer a real wheel animation in notebooks.
+    try:
+        from IPython.display import display  # type: ignore
+    except Exception:
+        display = None  # type: ignore
 
-        wheel = spin_wheel_matplotlib(users, selected_user, chore)
-        if wheel is not None and display is not None:
-            display(wheel)
-            return
-
-        # Fallback: minimal text output.
-        console.print(
-            Text("✓ ", style="green")
-            + Text(chore.ljust(15), style="bold")
-            + Text(" → ")
-            + rainbow_text(selected_user)
-        )
+    wheel = spin_wheel_matplotlib(users, selected_user, chore)
+    if wheel is not None and display is not None:
+        display(wheel)
         return
+
+    # Fallback: minimal text output.
+    console.print(
+        Text("✓ ", style="green")
+        + Text(chore.ljust(15), style="bold")
+        + Text(" → ")
+        + rainbow_text(selected_user)
+    )
+    return
 
     iterations = int(SPIN_DURATION / FRAME_DELAY)
     console.print("")
